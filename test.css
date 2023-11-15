@@ -1,0 +1,97 @@
+.section1{
+    background:linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("imgs/bg1.jpg");
+    background-position: 15% 35%;
+    background-size: cover;
+    color: white;
+    /* margin-top: 93px; */
+    }
+    .cont{
+        padding: 0 14%;
+        margin: auto;
+    }
+    .freepik{
+        text-align: -webkit-center;
+        margin: 23px 60px 0 0;
+    }
+    .freepik a{
+        color: white;
+        border-bottom: 2px solid;
+    }
+    .head{
+        padding: 8% 20% 0;
+    }
+    .head h1{
+        font-size: 6rem;
+        line-height: 1.1;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: 400; 
+        animation-name: head;
+        position: relative;
+        animation:head 5s normal;
+    }
+    @keyframes head{
+     0%{
+       left: 400PX;
+     }
+     25%{
+       left: 0px;
+       
+     }
+     50%{
+
+     }
+
+    }
+    .seq{
+        display: flex;
+        justify-content: space-between;
+        margin: 57px 0 0;
+    }
+    .seq1{
+        box-sizing: border-box;
+        width: 23%;
+        padding: 38px 22px 30px;
+        text-align: center;
+        background-color: #c4b35d;
+        box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+    }
+    .seq1 img{
+        width: 69px;
+    }
+    .seq1 h4{
+        font-size: 1.375rem;
+        line-height: 1.2;
+        margin: 20px 0;
+        font-weight: 500;
+    }
+    .ancbox {
+        text-align: center;
+        padding: 65px 0 100px;
+    }
+   
+    .ancbox a {
+        padding: 13px 59px 13px 58px;
+        letter-spacing: 2px;
+        font-size: 1rem;
+        border-style: solid;
+        font-weight: 500;
+        color: #111111 ;
+        background-color: #ffffff ;
+        border-radius: 50px;
+    }
+    .ancbox a:hover{
+        background-color: #ae9721;
+        color: white;
+        border: none;
+
+    }
+    .a a:hover{
+        background-color: #ffffff;
+        color: black;
+        border: none;
+    }
+    .link a:hover{
+        background-color: #ae9721;
+        color: white;
+    }
